@@ -38,6 +38,30 @@ There aren't too many settings. Just a flag to turn on and off printing to the p
     "File Reload: Reload all files"
     "File Reload: Reload current file"
 
+### Keyboard shortcuts:
+
+OSX
+
+```json
+[
+	// Reload the current view
+	{ "keys": ["ctrl+super+o", "ctrl+super+o"], "command": "file_reload_reload_view"},
+	// Reload all views
+	{ "keys": ["ctrl+super+o", "ctrl+super+a"], "command": "file_reload_reload_view", "args": {"all": true}}
+]
+```
+
+Linux/Windows
+
+```json
+[
+	// Reload the current view
+	{ "keys": ["ctrl+alt+o", "ctrl+alt+o"], "command": "file_reload_reload_view"},
+	// Reload all views
+	{ "keys": ["ctrl+alt+o", "ctrl+alt+a"], "command": "file_reload_reload_view", "args": {"all": true}}
+]
+```
+
 
 ## Issues and suggestions:
 
