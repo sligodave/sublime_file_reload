@@ -1,0 +1,6 @@
+[
+	// Reload the current view
+	{ "keys": ["ctrl+super+o", "ctrl+super+o"], "command": "file_reload_reload_view"},
+	// Reload all views
+	{ "keys": ["ctrl+super+o", "ctrl+super+a"], "command": "file_reload_reload_view", "args": {"all": true}}
+]

@@ -1,0 +1,4 @@
+[
+    { "caption": "File Reload: Reload current file", "command": "file_reload_reload_view" },
+    { "caption": "File Reload: Reload all files", "command": "file_reload_reload_view", "args": {"all": true} }
+]
